@@ -1,0 +1,76 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Duid')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-duid" data-rule="required" class="form-control" name="row[duid]" type="number">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Id_name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ID_name" data-rule="required" class="form-control" name="row[ID_name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Id_holding_pic')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ID_holding_pic" class="form-control" name="row[ID_holding_pic]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Id_pic_front')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ID_pic_front" class="form-control" name="row[ID_pic_front]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Id_pic_back')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ID_pic_back" class="form-control" name="row[ID_pic_back]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Id_no')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-ID_NO" class="form-control" name="row[ID_NO]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Reason')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-reason" class="form-control" name="row[reason]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('State')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-state" data-rule="required" class="form-control" name="row[state]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Operator')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-operator" class="form-control" name="row[operator]" type="number" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Update_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-update_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[update_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-create_time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
