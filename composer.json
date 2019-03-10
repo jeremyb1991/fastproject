@@ -1,17 +1,16 @@
 {
-    "name": "karsonzhang/fastadmin",
-    "description": "the fastest admin framework",
+    "name": "fastproject",
+    "description": "fastproject",
     "type": "project",
     "keywords": [
         "fastadmin",
         "thinkphp"
     ],
-    "homepage": "http://www.fastadmin.net/",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Karson",
-            "email": "karsonzhang@163.com"
+            "name": "fastproject",
+            "email": "fastproject@163.com"
         }
     ],
     "require": {

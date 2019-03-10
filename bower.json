@@ -1,9 +1,8 @@
 {
-  "name": "fastadmin",
-  "description": "the fastest admin framework",
+  "name": "fastproject",
+  "description": "fastproject",
   "main": "",
   "license": "Apache2.0",
-  "homepage": "http://www.fastadmin.net",
   "private": true,
   "dependencies": {
     "jquery": "^2.1.4",
